@@ -1,0 +1,20 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "nomor": "+6281234567890",
+      "negara": "Indonesia",
+      "harga": 7000,
+      "status": "ready",
+      "deskripsi": "Nomor fresh, siap daftar WA"
+    },
+    {
+      "id": 2,
+      "nomor": "+14155552671",
+      "negara": "USA",
+      "harga": 10000,
+      "status": "ready",
+      "deskripsi": "Nomor US, bisa buat verifikasi"
+    }
+  ]
+}

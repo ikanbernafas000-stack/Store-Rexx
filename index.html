@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOKOS STORE - Jual Nomor Virtual WA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="container">
+            <h1>📱 <span class="highlight">NOKOS</span> STORE</h1>
+            <p>Jual Nomor Virtual WhatsApp | Siap Pakai | Garansi 3 Hari</p>
+        </div>
+    </div>
+
+    <!-- Promo Banner -->
+    <div class="promo">
+        <div class="container">
+            <marquee>🔥 PROMO BULAN INI! Beli 10 GRATIS 1! 🔥 | Bocil 16 Tahun Pengen Kaya Raya! 🤑</marquee>
+        </div>
+    </div>
+
+    <!-- Kategori -->
+    <div class="container">
+        <div class="kategori">
+            <div class="kategori-item active" data-negara="all">🌍 Semua</div>
+            <div class="kategori-item" data-negara="indonesia">🇮🇩 Indonesia</div>
+            <div class="kategori-item" data-negara="usa">🇺🇸 USA</div>
+            <div class="kategori-item" data-negara="canada">🇨🇦 Canada</div>
+            <div class="kategori-item" data-negara="uk">🇬🇧 UK</div>
+            <div class="kategori-item" data-negara="paket">📦 Paket Hemat</div>
+        </div>
+    </div>
+
+    <!-- Daftar Produk -->
+    <div class="container">
+        <h2 class="section-title">🛍️ DAFTAR NOMOR VIRTUAL</h2>
+        <div class="product-grid" id="product-list">
+            <!-- Produk akan di-load dari JavaScript -->
+        </div>
+    </div>
+
+    <!-- Keranjang -->
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>🛒 KERANJANG BELANJA</h3>
+            <button class="close-cart" onclick="toggleCart()">✖</button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <p class="empty-cart">Keranjang kosong, boss!</p>
+        </div>
+        <div class="cart-total">
+            <p>Total: <span id="cart-total">Rp 0</span></p>
+            <button class="checkout-btn" onclick="checkout()">✅ CHECKOUT VIA WA</button>
+        </div>
+    </div>
+
+    <!-- Tombol Keranjang -->
+    <div class="cart-toggle" onclick="toggleCart()">
+        🛒 <span class="cart-count" id="cart-count">0</span>
+    </div>
+
+    <!-- Form Pemesanan Cepat -->
+    <div class="container">
+        <div class="quick-order">
+            <h3>⚡ ORDER CEPAT</h3>
+            <p>Mau order banyak tapi gak mau ribet? Isi form dibawah, nanti kita kirim daftar nomor via WhatsApp!</p>
+            <input type="text" id="nama" placeholder="Nama lo, boss" class="order-input">
+            <input type="number" id="jumlah" placeholder="Jumlah nomor yang mau dibeli" class="order-input">
+            <select id="negara-order" class="order-input">
+                <option value="indonesia">🇮🇩 Indonesia</option>
+                <option value="usa">🇺🇸 USA</option>
+                <option value="canada">🇨🇦 Canada</option>
+                <option value="uk">🇬🇧 UK</option>
+                <option value="campuran">🌍 Campur (Random)</option>
+            </select>
+            <button class="order-btn" onclick="quickOrder()">📲 ORDER VIA WA</button>
+        </div>
+    </div>
+
+    <!-- Testimoni -->
+    <div class="container">
+        <h2 class="section-title">⭐ TESTIMONI CUSTOMER</h2>
+        <div class="testimoni-grid">
+            <div class="testimoni-card">
+                <p>"Mantap bos! Nomor langsung bisa dipake, garansi beneran 3 hari. Udah order 3x balik terus!"</p>
+                <div class="testimoni-user">- @dimas_tkj</div>
+            </div>
+            <div class="testimoni-card">
+                <p>"Bocil 16 tahun tapi jualannya profesional. Cepet respon, murah pula. Rekomen banget!"</p>
+                <div class="testimoni-user">- @santi_jualpulsa</div>
+            </div>
+            <div class="testimoni-card">
+                <p>"Baru pertama beli nomor virtual, dapet tutorial juga. Puas dah!"</p>
+                <div class="testimoni-user">- @agus_online</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h4>📞 CONTACT</h4>
+                    <p>WhatsApp: <a href="https://wa.me/6285248261867" target="_blank">+62 852-4826-1867</a></p>
+                    <p>Telegram: @nokos_store</p>
+                    <p>Instagram: @nokos.store</p>
+                </div>
+                <div>
+                    <h4>📋 INFO</h4>
+                    <p>Cara Order</p>
+                    <p>Syarat & Ketentuan</p>
+                    <p>Garansi 3 Hari</p>
+                </div>
+                <div>
+                    <h4>💳 PEMBAYARAN</h4>
+                    <p>DANA: 0812-3456-7890</p>
+                    <p>OVO: 0812-3456-7890</p>
+                    <p>GoPay: 0812-3456-7890</p>
+                    <p>Transfer Bank (BCA/Mandiri)</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 NOKOS STORE - Created by Bocil 16 Tahun 🚀 | Powered by Quantum V11.0</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
