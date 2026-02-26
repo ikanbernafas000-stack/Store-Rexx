@@ -190,7 +190,7 @@ function quickOrder() {
                     `Negara%3A%20${negaraText}%0A%0A` +
                     `Tolong%20dibantu%20pilihkan%20nomor%20yang%20bagus%2C%20boss!`;
     
-    window.open(`https://wa.me/6281234567890?text=${message}`, '_blank');
+    window.open(`https://wa.me/6285248261867?text=${message}`, '_blank');
 }
 
 // Initialize
